@@ -22,7 +22,7 @@ last_name.send_keys("Bordin")
 t.sleep(2)
 
 email = drive_chrome.find_element(By.ID, "userEmail")
-email.send_keys("devbordin@gmail.com")
+email.send_keys("febordin@gmail.com")
 t.sleep(2)
 
 check_sex = drive_chrome.find_element(By.CSS_SELECTOR, "label[for='gender-radio-1']")
@@ -30,7 +30,7 @@ check_sex.click()
 t.sleep(2)
 
 phone_number = drive_chrome.find_element(By.ID, 'userNumber')
-phone_number.send_keys("1996772016")
+phone_number.send_keys("1996825016")
 t.sleep(2)
 
 date = drive_chrome.find_element(By.ID, "dateOfBirthInput")
@@ -50,7 +50,7 @@ upload_picture.send_keys(r"C:\Users\FernandoBordin\Pictures\Screenshots\test_pic
 t.sleep(2)
 
 current_address = drive_chrome.find_element(By.ID, 'currentAddress')
-current_address.send_keys("Rua Altinopolis, 346, Sao Paulo, Agua Fria, SP")
+current_address.send_keys("Rua Das dores, 300, Sao Paulo, Alameda Das Dores, SP")
 t.sleep(2)
 
 # Preenche o campo de Estado
